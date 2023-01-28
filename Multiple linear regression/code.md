@@ -5,7 +5,7 @@
 $ data <- read.csv("/home/akanksha/Downloads/CarPrice_Assignment.csv")
 $ data1 <- subset(data, fueltype == "diesel")
 ```
-## MULTIPLE LINEARE REGRESSION
+## MULTIPLE LINEAR REGRESSION
 
 ```bash
 $ d <- lm(price~horsepower+stroke,data = data1)
